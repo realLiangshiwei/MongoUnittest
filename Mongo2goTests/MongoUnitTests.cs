@@ -30,22 +30,18 @@ namespace Mongo2goTests
         [Fact]
         public void Test()
         {
-
-
-
             var database = _client.GetDatabase(Guid.NewGuid().ToString());
-
-            database.CreateCollection("person");
-
 
             var session = _client.StartSession();
 
             session.StartTransaction();
 
+            database.CreateCollection("person");
+
             var collection = database.GetCollection<Person>("person");
 
 
-            collection.InsertOne(session,new Person()
+            collection.InsertOne(session, new Person()
             {
                 Id = 1,
                 Name = "Qa"
