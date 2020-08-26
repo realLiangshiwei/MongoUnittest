@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\liangshiwei\.nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1" t="Include">
+    <e p="C:\Users\liangshiwei\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1" t="Include">
       <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
     </e>
-    <e p="C:\Users\liangshiwei\.nuget\packages\microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
-    <e p="C:\Users\liangshiwei\.nuget\packages\microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\liangshiwei\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\liangshiwei\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\liangshiwei\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\liangshiwei\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\liangshiwei\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="C:\Users\liangshiwei\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\liangshiwei\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_qa.197710725.00" t="ExcludeRecursive" />
-    <e p="C:\Users\liangshiwei\Desktop\qa" t="IncludeRecursive">
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="MongoClientExtension.cs" t="Include" />
-      <e p="MongoUnitTests.cs" t="Include" />
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="netcoreapp3.1" t="Include">
-            <e p="qa.AssemblyInfo.cs" t="Include" />
+    <e p="C:\Users\liangshiwei\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_qa.1332170998.00" t="ExcludeRecursive" />
+    <e p="C:\Users\liangshiwei\Documents\Code\MongoUnittest" t="IncludeFlat">
+      <e p="Mongo2goTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Mongo2goTests.csproj" t="IncludeRecursive" />
+        <e p="MongoClientExtension.cs" t="Include" />
+        <e p="MongoUnitTests.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Mongo2goTests.AssemblyInfo.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Program.cs" t="Include" />
-      <e p="qa.csproj" t="IncludeRecursive" />
       <e p="qa.sln" t="IncludeFlat" />
     </e>
   </component>

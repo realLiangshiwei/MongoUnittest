@@ -1,11 +1,10 @@
 ﻿using System;
 using Mongo2Go;
 using MongoDB.Driver;
-using MongoDB.Driver.Linq;
 using Shouldly;
 using Xunit;
 
-namespace qa
+namespace Mongo2goTests
 {
     public class Person
     {

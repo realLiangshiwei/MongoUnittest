@@ -2,7 +2,7 @@
 using System.Threading;
 using MongoDB.Driver;
 
-namespace qa
+namespace Mongo2goTests
 {
     internal static class MongoClientExtension
     {
