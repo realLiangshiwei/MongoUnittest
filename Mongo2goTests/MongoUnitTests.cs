@@ -24,13 +24,14 @@ namespace Mongo2goTests
             var mongoUrl = new MongoUrl(_runner.ConnectionString);
 
             _client = new MongoClient(mongoUrl);
+            _client.EnsureReplicationSetReady();
         }
 
         [Fact]
         public void Test()
         {
 
-            _client.EnsureReplicationSetReady();
+
 
             var database = _client.GetDatabase(Guid.NewGuid().ToString());
 
