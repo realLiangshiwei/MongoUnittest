@@ -6,19 +6,13 @@ using Xunit;
 
 namespace Mongo2goTests
 {
-    public class Person
-    {
-        public int Id { get; set; }
 
-        public string Name { get; set; }
-    }
-
-    public class MongoUnitTests
+    public class MongoUnitTests_2
     {
         private MongoDbRunner _runner;
         private MongoClient _client;
 
-        public MongoUnitTests()
+        public MongoUnitTests_2()
         {
             _runner = MongoDbRunner.Start(singleNodeReplSet: true, singleNodeReplSetWaitTimeout: 10);
             var mongoUrl = new MongoUrl(_runner.ConnectionString);

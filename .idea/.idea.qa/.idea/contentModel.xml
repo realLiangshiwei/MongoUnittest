@@ -16,7 +16,9 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Mongo2goTests.csproj" t="IncludeRecursive" />
         <e p="MongoClientExtension.cs" t="Include" />
+        <e p="MongoUnitTests _1.cs" t="Include" />
         <e p="MongoUnitTests.cs" t="Include" />
+        <e p="MongoUnitTests_2.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">

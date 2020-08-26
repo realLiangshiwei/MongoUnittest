@@ -46,6 +46,8 @@
         <option value="$PROJECT_DIR$/Mongo2goTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/Mongo2goTests/MongoClientExtension.cs" />
         <option value="$PROJECT_DIR$/Mongo2goTests/MongoUnitTests.cs" />
+        <option value="$PROJECT_DIR$/Mongo2goTests/MongoUnitTests _1cs.cs" />
+        <option value="$PROJECT_DIR$/Mongo2goTests/MongoUnitTests_2.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +91,7 @@
       <workItem from="1598426407731" duration="745000" />
       <workItem from="1598431489378" duration="373000" />
       <workItem from="1598432357081" duration="2029000" />
+      <workItem from="1598436579177" duration="2156000" />
     </task>
     <servers />
   </component>
@@ -107,6 +110,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
