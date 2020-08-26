@@ -15,24 +15,29 @@ namespace Mongo2goTests
 
     public class MongoUnitTests
     {
+        private MongoDbRunner _runner;
+        private MongoClient _client;
+
+        public MongoUnitTests()
+        {
+            _runner = MongoDbRunner.Start(singleNodeReplSet: true, singleNodeReplSetWaitTimeout: 10);
+            var mongoUrl = new MongoUrl(_runner.ConnectionString);
+
+            _client = new MongoClient(mongoUrl);
+        }
+
         [Fact]
         public void Test()
         {
-            var mongoDbRunner = MongoDbRunner.Start(singleNodeReplSet: true, singleNodeReplSetWaitTimeout: 10);
 
+            _client.EnsureReplicationSetReady();
 
-            var mongoUrl = new MongoUrl(mongoDbRunner.ConnectionString);
-
-            var client = new MongoClient(mongoUrl);
-
-            client.EnsureReplicationSetReady();
-
-            var database = client.GetDatabase(Guid.NewGuid().ToString());
+            var database = _client.GetDatabase(Guid.NewGuid().ToString());
 
             database.CreateCollection("person");
 
 
-            var session = client.StartSession();
+            var session = _client.StartSession();
 
             session.StartTransaction();
 
